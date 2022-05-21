@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+App is using deezer API, if you want to test app locally, you should download extansion like Moesif Origin & CORS Changer!
+
 ## Available Scripts
 
 In the project directory, you can run:

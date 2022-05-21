@@ -15,7 +15,7 @@ const Search = ({setFavouriteSongs, favouriteSongs}) => {
 
   useEffect(() => {
     if (searchValue.length > 3) {
-      fetch(`http://api.deezer.com/search?q=${searchValue}`)
+      fetch(`https://api.deezer.com/search?q=${searchValue}`)
       .then(response => response.json())
       .then(parsedResponse => {
         let tracksFound = parsedResponse.data.slice(0,3)
