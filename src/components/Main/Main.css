@@ -1,0 +1,38 @@
+.main {
+  margin-top: 20px;
+}
+.main--grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  position: relative;
+  z-index: 100;
+  perspective: 3000px;
+  perspective-origin: 50% 50%;
+}
+.main--grid-cover {
+  width: 100%;
+  border-radius: 10px;
+  transition: 0.3s;
+  transform: scale(95%);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.093);
+  cursor: pointer;
+}
+.main--grid:hover .main--grid-cover {
+  opacity: 0.8;
+  border-radius: 10px;
+  transform: scale(94%);
+}
+.main--grid .main--grid-cover:hover {
+  opacity: 1;
+  transform: scale(110%) rotateX(12deg);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.324);
+}
+.main--grid-cover-active {
+  filter: opacity(1);
+}
+@media screen and (min-width: 700px) {
+  .main--grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}

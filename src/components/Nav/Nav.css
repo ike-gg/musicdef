@@ -1,0 +1,23 @@
+nav {
+  background-color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav--title {
+  font-size: 2rem;
+  margin: 0;
+  background: linear-gradient(
+    to bottom right,
+    rgb(108, 95, 222),
+    rgb(3, 95, 255),
+    rgb(51, 194, 255)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.nav--github {
+  font-size: 1rem;
+  text-decoration: none;
+}

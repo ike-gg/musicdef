@@ -1,0 +1,22 @@
+footer {
+  position: relative;
+  bottom: 0;
+  margin-top: 100px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 -10px 15px 0px rgba(173, 203, 255, 0.316);
+  color: rgb(167, 167, 167);
+  font-weight: 100;
+  text-align: center;
+  padding: 10px;
+  font-size: 1rem !important;
+}
+footer > button {
+  font-size: 1rem !important;
+  color: rgb(47, 88, 255) !important;
+}
+.footer--github {
+  text-decoration: none;
+  margin: 0 5px;
+  color: rgb(47, 88, 255);
+}
