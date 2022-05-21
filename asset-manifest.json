@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/musicder/static/css/main.755d99d8.css",
-    "main.js": "/musicder/static/js/main.1a6f63e6.js",
+    "main.js": "/musicder/static/js/main.9e14f7b1.js",
     "index.html": "/musicder/index.html",
     "main.755d99d8.css.map": "/musicder/static/css/main.755d99d8.css.map",
-    "main.1a6f63e6.js.map": "/musicder/static/js/main.1a6f63e6.js.map"
+    "main.9e14f7b1.js.map": "/musicder/static/js/main.9e14f7b1.js.map"
   },
   "entrypoints": [
     "static/css/main.755d99d8.css",
-    "static/js/main.1a6f63e6.js"
+    "static/js/main.9e14f7b1.js"
   ]
 }
